@@ -91,7 +91,7 @@ body{
   }
   .container
   {
-      width:1010px;
+      max-width:1010px;
   }
 }
 
