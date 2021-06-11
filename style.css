@@ -13,51 +13,7 @@ body{
     overflow-x: hidden;                        
 }
 
-
-.navbar
-{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.navbar__brand
-{
-    width:100px;
-}
-
-@media (min-width:768px)
-{
-.navbar{
-    justify-content: space-between;
-    padding:10px 20px;
-}
-.navbar__brand{
-    width:150px;
-  }
-
-  .nav__item{
-    padding:20px;
-    font-size:20px;
-}
-}
-
-@media (min-width:1020px)
-{
-
-}
-
-@media (min-width:1400px)
-{
-
-}
-
-.navbar__logo
-{
-    width:100%;
-}
-
-.nav__item
+.button__primary           /* we used button primary in place of nav-item for it's reusability*/
 {
     background-image:linear-gradient(
         to right,
@@ -70,3 +26,78 @@ body{
     border:none;
     border-radius: 6px;
 }
+.container
+{
+    width: 100%;
+    margin: 0 auto;  /* auto means browser will decide */
+    padding: 0 15px;
+}
+
+
+.navbar
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar__brand
+{
+    width:100px;
+}
+.navbar__logo
+{
+    width:100%;
+}
+
+.hero__image__container
+{
+    width: 100%;
+}
+.hero__image{
+    width:100%
+}
+
+@media (min-width:768px)
+{
+.navbar{
+    justify-content: space-between;
+    padding:10px 20px;
+}
+.navbar__brand{
+    width:150px;
+  }
+
+  .button__primary{       /* we used button primary in place of nav-item for it's reusability*/
+    padding:20px;
+    font-size:20px;
+}
+.hero__container
+{
+    display:flex;
+    flex-direction: row-reverse;
+     align-items: center;
+     justify-content: space-between;
+     gap:10px;
+}
+}
+
+@media (min-width:1020px)
+{
+  .hero__image__container
+  {
+      width: 500px;
+      height: 500px;
+  }
+  .container
+  {
+      width:1010px;
+  }
+}
+
+@media (min-width:1400px)
+{
+
+}
+
+
