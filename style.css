@@ -1,0 +1,72 @@
+*
+{
+    margin:0;
+    padding:0; 
+    box-sizing: border-box;  /* To Box Model*/
+}
+
+/* Global Style */
+
+body{
+    font-family: "Merriweather",sans-serif;
+    background-color: #ebf2ff;
+    overflow-x: hidden;                        
+}
+
+
+.navbar
+{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navbar__brand
+{
+    width:100px;
+}
+
+@media (min-width:768px)
+{
+.navbar{
+    justify-content: space-between;
+    padding:10px 20px;
+}
+.navbar__brand{
+    width:150px;
+  }
+
+  .nav__item{
+    padding:20px;
+    font-size:20px;
+}
+}
+
+@media (min-width:1020px)
+{
+
+}
+
+@media (min-width:1400px)
+{
+
+}
+
+.navbar__logo
+{
+    width:100%;
+}
+
+.nav__item
+{
+    background-image:linear-gradient(
+        to right,
+        #ff512f 0%,
+        #dd2476 51%,
+        #ff512f 100%
+    );
+    color:#fff;
+    padding:12px;
+    border:none;
+    border-radius: 6px;
+}
