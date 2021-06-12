@@ -55,8 +55,26 @@ body{
     width: 100%;
 }
 .hero__image{
-    width:100%
+    width:100%;
 }
+.hero__text
+{
+    font-size: 30px;
+    color:#1d3557;
+    margin:20px 0;
+}
+
+/* Menu Styles */
+
+.food__menu__card
+{
+    width:100%;
+}
+.food__image
+{
+    width:100%;
+}
+
 
 @media (min-width:768px)
 {
@@ -69,35 +87,44 @@ body{
   }
 
   .button__primary{       /* we used button primary in place of nav-item for it's reusability*/
-    padding:20px;
+    padding:12px 20px;
     font-size:20px;
+    cursor: pointer;
 }
 .hero__container
 {
     display:flex;
     flex-direction: row-reverse;
      align-items: center;
-     justify-content: space-evenly;
+     justify-content: space-between;
      gap:10px;
 }
 }
 
 @media (min-width:1020px)
 {
-  .hero__image__container
-  {
-      width: 500px;
-      height: 500px;
+  
+  
+  .hero__text{
+      font-size: 50px;
   }
+
   .container
   {
-      max-width:1010px;
+      max-width:1200px;  /* Generally it should be less than the device width*/
   }
 }
 
 @media (min-width:1400px)
 {
+    .container
+    {
+        max-width: 1250px;
+    }
 
 }
 
 
+
+
+/*@20 min*/
