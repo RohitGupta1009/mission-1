@@ -127,6 +127,39 @@ body{
      justify-content: space-between;
      gap:10px;
 }
+.explore__menu__container
+{
+    position: relative;
+}
+.explore__menu__gradient__bg
+{
+    position: absolute;
+    left: 0;             /* Take all the width of left*/
+    top: 0;              /* Take all the width of top*/
+    height: 100%;
+    width: 100%;
+    background-image:linear-gradient(
+        to right,
+        #ff512f 0%,
+        #dd2476 51%,
+        #ff512f 100%
+    );
+    
+    z-index: -3;  /* If we want to move it behind then in minus if we want to be on the up us plus*/
+    transform: skewY(-5deg);
+}
+.explore__menu__lists
+{
+    display: flex;
+    gap: 8px;
+    margin-top: 50px;
+}
+#pizza__card
+{
+    margin-top: -20px;
+    margin-bottom: 30px;
+
+}
 }
 
 @media (min-width:1020px)
@@ -140,6 +173,16 @@ body{
   .container
   {
       max-width:1200px;  /* Generally it should be less than the device width*/
+  }
+  .explore__menu__lists
+  {
+      
+      gap:20px;
+      padding:0px 20px ;
+  }
+  .explore__menu__text
+  {
+      font-size: 50px;
   }
 }
 
