@@ -154,6 +154,43 @@ body{
     margin-bottom: 4px;
 }
 
+/* Form section  */   
+
+
+.get__updates
+  {
+      margin-top: 40px;
+  }
+
+.get__updates__text
+{
+    font-size: 34px;
+    color:#1d3557;
+    margin:20px 0;
+    text-align: center;
+}
+.get__updates__form__and__button
+{
+    width:100%;
+    display:flex;
+    gap:20px;
+    align-items: center;
+    justify-content: center;
+    margin-top: -5px;
+    
+}
+.get__updates__email
+{
+
+    padding : 8px 5px;
+    
+    background-color: rgb(241, 205, 211) ;
+    border-bottom-color: rgb(228, 72, 72); 
+    border-top-color: rgb(250, 156, 171);
+    border-left-color: silver;
+    border-right-color: silver;
+    
+}
 
 
 @media (min-width:768px)
@@ -225,6 +262,26 @@ body{
 .restaurants__flex{
     width:100%;
 }
+.get__updates__text
+{
+    font-size: 60px;
+
+    width:100%;
+}
+.get__updates
+{
+    margin-top: 100px;
+}
+.get__updates__form__and__button
+  {
+  padding-left: 173px;
+  }
+
+.get__updates__email
+{
+    padding : 10px;
+    padding-right: 200px;
+}
 }
 
 @media (min-width:1020px)
@@ -252,6 +309,42 @@ body{
   .restaurants__container{
     margin-top: 30px;
   }
+  .get__updates
+  {
+      margin-top: 75px;
+  }
+  .get__updates__text
+  {
+      font-size: 40px;
+  }
+  
+  .get__updates__form__and__button
+  {
+    
+        display:flex;
+        gap:60px;
+        align-items: center;
+        justify-content: center;
+        margin-top: -15px;
+        width: 100%;
+        padding-left: 173px;
+      
+      
+      
+  }
+  .get__updates__email
+  {
+  width:120%;
+  height:180%;
+  padding-right: 36px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-radius: 3px;
+    
+  }
+  
+ 
+
 }
 
 @media (min-width:1400px)
@@ -266,4 +359,4 @@ body{
 
 
 
-/*@20 min*/
+/*@20 min     */
